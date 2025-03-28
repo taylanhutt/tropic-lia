@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function (){
     ('diminuir-fonte');
     const alternaContraste = document.getElementById
     ('alterna-contraste');
-
+  
      let tamanhoAtualFonte = 1;
 
        aumentaFonteBotao.addEventListener('click',function(){
@@ -30,6 +30,11 @@ const opcoesDeAcesibilidade = document.getElementById('opcoes-acessibilidade');
     document.body.classList.toggle('alto-contraste')
 })
 })
+    ScrollReveal().reveal('.#inicio', { delay: 500 });
+    ScrollReveal().reveal('.#tropicalia', { delay: 500 });
+    ScrollReveal().reveal('.#galeria', { delay: 500 });
+    ScrollReveal().reveal('.#contato', { delay: 500 });
+
 
   
 
